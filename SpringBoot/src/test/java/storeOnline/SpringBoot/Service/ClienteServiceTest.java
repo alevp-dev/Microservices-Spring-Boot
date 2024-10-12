@@ -33,19 +33,16 @@ public class ClienteServiceTest {
 
     @Test
     void testGetAllCustomers() {
-        // Preparar el comportamiento del mock
         when(clienteRepository.findAll()).thenReturn(Arrays.asList(cliente1, cliente2));
 
-        // Ejecutar el método a probar
         List<ClienteEntity> result = clienteService.getAllCustomers();
 
-        // Verificar los resultados
         assertEquals(2, result.size());
         verify(clienteRepository, times(1)).findAll();
     }
 
     @Test
-    public void testGetClienteById() {
+    public void testGetCustomerById() {
         Long idCliente = 2L;
         ClienteEntity cliente = new ClienteEntity();
         cliente.setIdCustomer(idCliente);
