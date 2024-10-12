@@ -34,11 +34,10 @@ Para ejecutar las pruebas automatizadas:
 Clona el repositorio.
 Asegúrate de tener JUnit y Mockito configurados en tu proyecto.
 Ejecuta los tests desde tu IDE o mediante el comando de Maven:
-bash
-Copy code
 mvn test
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This project involves the development of a RESTful API for managing purchase orders using Java Spring Boot. The architecture is based on microservices, and relationships between entities are handled through JPA/Hibernate.
 
 Each endpoint has been tested using Postman, and automated tests have been implemented using JUnit and Mockito to validate the functionality of the services for all the entities in the project.
@@ -72,7 +71,5 @@ Instructions to Run the Tests
 Clone the repository.
 Ensure that JUnit and Mockito are set up in your project.
 Run the tests from your IDE or via Maven:
-bash
-Copy code
 mvn test
 
