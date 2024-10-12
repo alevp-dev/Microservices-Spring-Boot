@@ -28,4 +28,14 @@ public class InventarioEntity {
 
     @Column(nullable = false, columnDefinition = "Decimal(10,2)")
     private Double price;
+
+    public InventarioEntity(Long idInventario, String productName, Integer stock, Double price) {
+        this.idInventario = idInventario;
+        this.productName = productName;
+        this.stock = stock;
+        this.price = price;
+    }
+
+    public InventarioEntity() {
+    }
 }

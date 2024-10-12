@@ -34,4 +34,14 @@ public class PagoEntity {
 
     @Column(nullable = false)
     private String pagoMethod;
+
+    public PagoEntity(Long idPago, String pagoStatus, Double amount, String pagoMethod) {
+        this.idPago = idPago;
+        this.pagoStatus = pagoStatus;
+        this.amount = amount;
+        this.pagoMethod = pagoMethod;
+    }
+
+    public PagoEntity() {
+    }
 }

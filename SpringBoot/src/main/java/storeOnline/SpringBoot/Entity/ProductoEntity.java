@@ -30,4 +30,14 @@ public class ProductoEntity {
     @ManyToOne
     @JoinColumn(name = "id_inventario", nullable = false)
     private InventarioEntity inventario;
+
+    public ProductoEntity(Long idProduct, String productName, Double priceProduct, InventarioEntity inventario) {
+        this.idProduct = idProduct;
+        this.productName = productName;
+        this.priceProduct = priceProduct;
+        this.inventario = inventario;
+    }
+
+    public ProductoEntity() {
+    }
 }

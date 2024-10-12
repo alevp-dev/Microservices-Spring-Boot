@@ -11,7 +11,7 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import java.util.Date;
-import lombok.Generated;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -36,4 +36,14 @@ public class OrdenEntity {
     @JsonFormat(pattern = "yyyy-MM-dd")
     @Column(name = "created_date", nullable = false)
     private Date createdDate;
+
+    public OrdenEntity(Long idOrden, ClienteEntity customer, String status, Date createdDate) {
+        this.idOrden = idOrden;
+        this.customer = customer;
+        this.status = status;
+        this.createdDate = createdDate;
+    }
+
+    public OrdenEntity() {
+    }
 }

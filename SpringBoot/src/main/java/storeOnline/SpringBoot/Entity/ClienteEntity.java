@@ -34,4 +34,14 @@ public class ClienteEntity {
     @OneToMany(mappedBy = "customer")
     private List<OrdenEntity> ordenes;
 
+    public ClienteEntity(Long idCustomer, String customerName, String email, String telefono) {
+        this.idCustomer = idCustomer;
+        this.customerName = customerName;
+        this.email = email;
+        this.telefono = telefono;
+    }
+
+    public ClienteEntity() {
+    }
+
 }

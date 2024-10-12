@@ -31,4 +31,14 @@ public class OrdenDetalleEntity {
 
     @Column(nullable = false)
     private Integer amount;
+
+    public OrdenDetalleEntity(Long idOrdenDetalle, OrdenEntity orden, ProductoEntity producto, Integer amount) {
+        this.idOrdenDetalle = idOrdenDetalle;
+        this.orden = orden;
+        this.producto = producto;
+        this.amount = amount;
+    }
+
+    public OrdenDetalleEntity() {
+    }
 }

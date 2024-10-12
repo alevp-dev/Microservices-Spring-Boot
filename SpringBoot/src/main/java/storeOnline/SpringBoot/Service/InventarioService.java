@@ -40,7 +40,7 @@ public class InventarioService {
     public void deleteInventory(Long idInventario) {
         InventarioEntity inventory = (InventarioEntity)this.inventarioRepository
                 .findById(idInventario)
-                .orElseThrow(() -> new RuntimeException("No se encuentra en el inventario"));
+                .orElseThrow(() -> new RuntimeException("No se encuentra en el inventario."));
         this.inventarioRepository.delete(inventory);
     }
 }

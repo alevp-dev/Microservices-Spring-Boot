@@ -32,4 +32,13 @@ public class NotificadorEntity {
     @Column(nullable = false)
     private String status;
 
+    public NotificadorEntity(Long idNotificador, OrdenEntity orden, String notificadorType, String status) {
+        this.idNotificador = idNotificador;
+        this.orden = orden;
+        this.notificadorType = notificadorType;
+        this.status = status;
+    }
+
+    public NotificadorEntity() {
+    }
 }
