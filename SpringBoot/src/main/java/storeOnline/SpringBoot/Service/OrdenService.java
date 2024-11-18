@@ -57,4 +57,8 @@ public class OrdenService {
         OrdenEntity orden = (OrdenEntity)this.ordenRepository.findById(idOrder).orElseThrow(() -> new RuntimeException("Orden no encontrada."));
         this.ordenRepository.delete(orden);
     }
+
+   public List<OrdenEntity> filterOrders(String status) {
+        return ordenRepository.filterOrders(status);
+   }
 }

@@ -1,9 +1,11 @@
 package storeOnline.SpringBoot.Service;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import storeOnline.SpringBoot.Entity.ClienteEntity;
 import storeOnline.SpringBoot.Entity.OrdenEntity;
@@ -114,5 +116,18 @@ public class OrdenServiceTest {
 
         verify(ordenRepository, times(1)).findById(1L);
         verify(ordenRepository, times(1)).delete(any(OrdenEntity.class));
+    }
+
+    @Test
+    void testFilterOrders() {
+        List<OrdenEntity> mockOrders = List.of(orden1);
+
+        Mockito.when(ordenRepository.filterOrders("Completada")).thenReturn(mockOrders);
+
+        List<OrdenEntity> result = ordenService.filterOrders("Completada");
+
+        Assertions.assertNotNull(result);
+        Assertions.assertEquals(1, result.size());
+        Assertions.assertEquals("Completada", result.get(0).getStatus());
     }
 }

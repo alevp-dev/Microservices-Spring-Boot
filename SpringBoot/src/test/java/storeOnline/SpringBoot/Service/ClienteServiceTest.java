@@ -42,7 +42,7 @@ public class ClienteServiceTest {
     }
 
     @Test
-    public void testGetCustomerById() {
+    public void testCustomerById() {
         Long idCliente = 2L;
         ClienteEntity cliente = new ClienteEntity();
         cliente.setIdCustomer(idCliente);
