@@ -36,3 +36,8 @@ Ensure that JUnit and Mockito are set up in your project.
 Run the tests from your IDE or via Maven:
 mvn test
 
+# Contributions
+Contributions, issues, and feature requests are welcome! Feel free to fork this repository and submit a pull request.
+
+---
+Developed with ❤️ by **Alejandra Villa Posada**
