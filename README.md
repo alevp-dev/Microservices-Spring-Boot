@@ -31,7 +31,7 @@ The project includes automated tests covering the following entities:
 
 Each service is tested using **mocked repositories** with **Mockito**, ensuring expected responses and behaviors through **JUnit** assertions.  
 
-## 🚀 Running the Tests  
+# Running the Tests  
 1️⃣ **Clone the repository:**  
 ````
 git clone https://github.com/your-username/your-repo.git
