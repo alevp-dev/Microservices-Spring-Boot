@@ -36,8 +36,10 @@ Each service is tested using **mocked repositories** with **Mockito**, ensuring 
 ````
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
+````
 2️⃣ Ensure that JUnit and Mockito are properly set up.
 3️⃣ Run the tests using Maven:
+````
 mvn test
 ````
 
