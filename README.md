@@ -40,12 +40,12 @@ src/
 🔹 **Postman** – API testing.  
 🔹 **JUnit** – Unit testing.  
 🔹 **Mockito** – Mocking dependencies in unit tests.
-🔹 **Lombok**.
-🔹 **MySQL**.
-🔹 **Spring Boot 3.2.2**.
-🔹 **Spring Data JPA**.
-🔹 **Spring Web MVC**.
-🔹 **Springdoc OpenAPI 3.0**.
+🔹 **Lombok** 
+🔹 **MySQL** 
+🔹 **Spring Boot 3.2.2** 
+🔹 **Spring Data JPA** 
+🔹 **Spring Web MVC** 
+🔹 **Springdoc OpenAPI 3.0** 
 
 # Tests  
 The project includes automated tests covering the following entities:  
