@@ -39,7 +39,7 @@ src/
 🔹 **JPA/Hibernate** – Data persistence and entity relationship management.  
 🔹 **Postman** – API testing.  
 🔹 **JUnit** – Unit testing.  
-🔹 **Mockito** – Mocking dependencies in unit tests.  
+🔹 **Mockito** – Mocking dependencies in unit tests.
 🔹 **Lombok**.
 🔹 **MySQL**.
 🔹 **Spring Boot 3.2.2**.
