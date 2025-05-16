@@ -4,12 +4,35 @@ This project is a **RESTful API** for managing **purchase orders** using **Java 
 
 Each endpoint has been tested using **Postman**, ensuring reliability and correctness across all entities.  
 
+# Project Structure
+```
+src/
+├── main/
+│   ├── java/
+│   │   └── storeOnline/
+│   │       └── SpringBoot/
+│   │           ├── config/
+│   │           ├── controller/
+│   │           ├── model/
+│   │           ├── repository/
+│   │           ├── service/
+│   │           └── StoreOnlineApplication.java
+│   └── resources/
+│       └── application.properties
+└── test/
+    └── java/
+        └── storeOnline/
+            └── SpringBoot/
+                └── tests/
+```
+
 # Features  
 ✔️ Microservices-based architecture.  
 ✔️ Management of **purchase orders, customers, payments, products, notifications, order details, and inventory**.  
 ✔️ Entity relationships handled with **JPA/Hibernate**.  
 ✔️ Automated testing using **JUnit and Mockito**.  
 ✔️ API integration testing with **Postman**.  
+✔️ API documentation with **Swagger**.  
 
 # Technologies Used  
 🔹 **Java Spring Boot** – Backend implementation and microservices.  
@@ -17,6 +40,12 @@ Each endpoint has been tested using **Postman**, ensuring reliability and correc
 🔹 **Postman** – API testing.  
 🔹 **JUnit** – Unit testing.  
 🔹 **Mockito** – Mocking dependencies in unit tests.  
+🔹 **Lombok**
+🔹 **MySQL**
+🔹 **Spring Boot 3.2.2**
+🔹 **Spring Data JPA**
+🔹 **Spring Web MVC**
+🔹 **Springdoc OpenAPI 3.0**
 
 # Tests  
 The project includes automated tests covering the following entities:  
