@@ -40,7 +40,7 @@ src/
 🔹 **Postman** – API testing.  
 🔹 **JUnit** – Unit testing.  
 🔹 **Mockito** – Mocking dependencies in unit tests.
-🔹 **Lombok** 
+🔹 **Lombok** -
 🔹 **MySQL** 
 🔹 **Spring Boot 3.2.2** 
 🔹 **Spring Data JPA** 
