@@ -35,17 +35,17 @@ src/
 ✔️ API documentation with **Swagger**.  
 
 # Technologies Used  
-🔹 **Java Spring Boot** – Backend implementation and microservices.  
-🔹 **JPA/Hibernate** – Data persistence and entity relationship management.  
-🔹 **Postman** – API testing.  
-🔹 **JUnit** – Unit testing.  
-🔹 **Mockito** – Mocking dependencies in unit tests.
-🔹 **Lombok** 
-🔹 **MySQL** 
-🔹 **Spring Boot 3.2.2** 
-🔹 **Spring Data JPA** 
-🔹 **Spring Web MVC** 
-🔹 **Springdoc OpenAPI 3.0** 
+* **Java Spring Boot** – Backend implementation and microservices.
+* **JPA/Hibernate** – Data persistence and entity relationship management.  
+* **Postman** – API testing.  
+* **JUnit** – Unit testing.  
+* **Mockito** – Mocking dependencies in unit tests.
+* **Lombok** 
+* **MySQL** 
+* **Spring Boot 3.2.2** 
+* **Spring Data JPA** 
+* **Spring Web MVC** 
+* **Springdoc OpenAPI 3.0** 
 
 # Tests  
 The project includes automated tests covering the following entities:  
