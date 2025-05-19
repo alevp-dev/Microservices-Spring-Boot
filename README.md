@@ -4,7 +4,7 @@ This project is a **RESTful API** for managing **purchase orders** using **Java 
 
 Each endpoint has been tested using **Postman**, ensuring reliability and correctness across all entities.  
 
-#3 Project Structure
+## Project Structure
 ```
 src/
 ├── main/
@@ -26,7 +26,7 @@ src/
                 └── tests/
 ```
 
-##Features  
+## Features  
 ✔️ Microservices-based architecture.  
 ✔️ Management of **purchase orders, customers, payments, products, notifications, order details, and inventory**.  
 ✔️ Entity relationships handled with **JPA/Hibernate**.  
